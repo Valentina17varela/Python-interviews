@@ -17,6 +17,7 @@ Output: [['Valentina', 'Jorge'], ['Jorge', 'Luis'], ['Luis', 'Miguel'], ['Miguel
 🕵🏻 Test: [Pytest](test/pytest/test_secret_santa.py) [Unittest](test/unittest/test_secret_santa_unit.py)
 
 <br><br>
+
 ## Online Cloud Reading Application
 (Like Kindle)
 
@@ -28,3 +29,16 @@ Output: [['Valentina', 'Jorge'], ['Jorge', 'Luis'], ['Luis', 'Miguel'], ['Miguel
 👩🏻‍💻[Solution](src/reading_app.py)
 <br>
 🕵🏻 Test: [Pytest](test/pytest/test_reading_app.py) [Unittest](test/unittest/test_reading_app_unit.py)
+
+<br><br>
+
+## Rearrange String
+
+Given a string, write a function named rearrange_string that performs the following:
+- Removes all digits.
+- Converts all uppercase letters to lowercase.
+- Reverses the string.
+
+👩🏻‍💻[Solution](src/rearrange_string.py)
+<br>
+🕵🏻 Test: [Pytest](test/pytest/test_rearrange_string.py) [Unittest](test/unittest/test_rearrange_string_unit.py)
