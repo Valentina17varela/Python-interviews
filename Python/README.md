@@ -42,3 +42,32 @@ Given a string, write a function named rearrange_string that performs the follow
 👩🏻‍💻[Solution](src/rearrange_string.py)
 <br>
 🕵🏻 Test: [Pytest](test/pytest/test_rearrange_string.py) [Unittest](test/unittest/test_rearrange_string_unit.py)
+
+<br><br>
+
+## Highest Revenue
+
+you are the manager of a popular e-commerce store You have been tasked to find the product that generates 
+the most revenue to the store. you asked one of your employees to write a function that takes in your historical 
+transactional data and returns the product that has generated the most revenue. however you notice that the function 
+has some issues and you must debug the code. 
+
+The input of the function is a string that contains comma separated data, in which each row represents a 
+sale of a particular product and consist in two values: product_id, price_of_product 
+
+Input: '111, 5
+111, 5
+111, 5 
+222, 3
+333, 6
+333, 6'
+
+Output: 111
+
+Note: the function should return a integer
+if a product_id has different prices, then the function should return -1
+if the highest revenue is <= 0, then the function should return -1
+
+👩🏻‍💻[Solution](src/highest_revenue.py)
+<br>
+🕵🏻 Test: [Pytest](test/pytest/test_highest_revenue.py) [Unittest](test/unittest/test_highest_revenue_unit.py)
